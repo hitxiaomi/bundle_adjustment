@@ -20,7 +20,7 @@ namespace  bundle_adjustment {
 
         explicit BaseVertex(int dimension,int local_dimension=-1);
 
-        virtual  ~BaseVertex(){}
+
 
         void SetId(int id){ id_=id;}
         unsigned long  Id() const { return id_; }

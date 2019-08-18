@@ -73,11 +73,6 @@ namespace bundle_adjustment {
     std::string EdgeReprojection::TypeInfo() const {
         return "EdgeReprojection";
     }
-    EdgeReprojection::~EdgeReprojection() {
-
-    }
-
-
 
 
 

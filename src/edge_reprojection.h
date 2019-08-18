@@ -23,11 +23,6 @@ public:
 
     }
 
-    virtual  ~EdgeReprojection();
-
-
-
-
 
     virtual std::string TypeInfo()  const  ;
 

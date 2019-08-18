@@ -26,7 +26,7 @@ namespace  bundle_adjustment {
         Optimizer(){
 
         }
-        ~Optimizer(){}
+
 
         bool AddVertex(const std::shared_ptr<BaseVertex>& vertex);
         bool AddEdge(const std::shared_ptr<BaseEdge>& edge );

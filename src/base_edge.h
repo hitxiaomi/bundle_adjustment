@@ -21,7 +21,7 @@ namespace bundle_adjustment {
         EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
         BaseEdge(int residual_dimension,int num_vertices,const std::vector<std::string>& vertices_types=std::vector<std::string>() );
 
-        virtual  ~BaseEdge() {}
+
 
 
         void  SetId(unsigned long id);

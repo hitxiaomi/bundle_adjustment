@@ -126,19 +126,6 @@ namespace bundle_adjustment{
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         return  true;
 
     }
